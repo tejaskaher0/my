@@ -1,0 +1,19 @@
+git config --global user.name "My Name"
+git config --global user.email "My Mail"
+git config --list
+
+git --version
+git add .
+git commit -m ""
+git push -u origin main
+git push
+git push origin main
+clear
+ls
+pwd
+cd 
+git init
+git remote add origin <- link ->
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
