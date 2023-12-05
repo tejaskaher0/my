@@ -19,3 +19,13 @@ git branch (to check branch)
 git branch -M main (to rename branch)
 
 git clone <- link ->
+
+
+git fetch origin
+git checkout -b integration origin/main
+git merge --allow-unrelated-histories integration
+git add <conflicting-files>
+git commit -m "Resolved conflicts"
+git checkout main
+git rebase integration
+git push origin main
